@@ -87,14 +87,18 @@ h1{
 form{
 	border-radius: 6px;
 }
-h2{
+.box a{
 	text-align: center;
 	font-size: 18px;
 	font-weight: 400;
+	color: white;
+	text-decoration: none;
+	margin-left: 10%;
 }
-h2 span{
+a span{
 	font-weight: 700;
 	font-size: 19px;
+	
 }
 .form-control{
 	display: block;
@@ -105,7 +109,9 @@ h2 span{
 	border-radius: 6px;
 	border: 1px solid #e3e3e3 ;
 	outline: 0;
-
+}
+.form-control:focus{
+	border-color: #5D54A3;
 }
 button{
 	padding: 10px 25px;
@@ -125,6 +131,9 @@ fieldset{
 	color: black;
 	padding: 10px 0 15px 0;
 }
-.white span{
+.white a{
 	color: red;
+	display: inline-block;
+	margin-left: 5px;
+	font-size: 12px;
 }
