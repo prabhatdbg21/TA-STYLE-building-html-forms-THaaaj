@@ -56,11 +56,11 @@
                             <div class="flex">
                                 <div>
                                     <label for="check-in"> Check in Date</label>
-                                    <input type="text" id="check-in" name="check in" placeholder="Check In ">
+                                    <input type="date" id="check-in" name="check in" placeholder="Check In ">
                                 </div>
                                 <div>
                                     <label for="check-out"> Check Out Date </label>
-                                    <input type="text" id="check-out" name="check-out" placeholder="Check Out">
+                                    <input type="date" id="check-out" name="check-out" placeholder="Check Out">
                                 </div>
                             </div>
                         </fieldset>
@@ -68,7 +68,13 @@
                             <div class="flex rooms-adult-children">
                                 <div class="width-50">
                                     <label for="rooms"> How many rooms</label>
-                                    <input type="text" id="rooms" name="rooms" placeholder="1 Room">
+                                    <!-- <input type="text" id="rooms" name="rooms" placeholder="1 Room"> -->
+                                    <select class="form-control header-form-select" name="rooms" id="rooms">
+                                        <option value=""> 1 room</option>
+                                        <option value=""> 2 room</option>
+                                        <option value=""> 3 room</option>
+                                        <option value=""> 4 room</option>
+                                    </select>
                                 </div>
                                 <div class="width-25">
                                     <label for="adult"> Adult</label>
@@ -324,7 +330,7 @@
                                     <input class="form-control" type="email" name="email" placeholder="Email">
                                 </div>
                                 <input class="form-control" type="text" name="subject" placeholder="Subject">
-                                <textarea class="form-control" name="message" id="" cols="" rows="10" placeholder="Message"> </textarea>
+                                <textarea class="form-control" name="message" rows="10" placeholder="Message"> </textarea>
                              </fieldset>
                              <button class="btn btn1 width-100">
                                 <a href="#"> SEND MESSAGE NOW</a>

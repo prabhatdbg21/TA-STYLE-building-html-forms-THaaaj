@@ -220,6 +220,7 @@ i{
 	padding: 20px;
 	margin: 90px 15% 50px 15%;
 }
+
 .header-form label{
 	display: block;
 	text-align: left;
@@ -414,4 +415,7 @@ i{
 	padding: 30px;
 	color: white;
 	font-size: 12px;
+}
+.header-form-select{
+	background-color: white;
 }
